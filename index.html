@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Cinema</title>
+  </head>
+  <body>
+    <div id="app" class="container" style="height: 100vh;">
+      <div id="cinema">
+        <div class="cinema-info">
+          <p>Movies:</p>
+          <select id="movies">
+            <option value="1">Avengers: Endgame</option>
+            <option value="2">Antman and wasp: Quantumania</option>
+          </select> 
+        </div>
+        <div class="screen">
+          <div class="cinema-screen">&nbsp;</div>
+        </div>
+        <div class="cinema-seats">
+          <div class="left-row">
+            <div class="seat seat-empty" id="1">&nbsp;</div>
+            <div class="seat seat-occupied" id="2">&nbsp;</div>
+            <div class="seat seat-empty" id="3">&nbsp;</div>
+            <div class="seat seat-empty" id="4">&nbsp;</div>
+            
+            <div class="seat seat-empty" id="5">&nbsp;</div>
+            <div class="seat seat-empty" id="6">&nbsp;</div>
+            <div class="seat seat-empty" id="7">&nbsp;</div>
+            <div class="seat seat-empty" id="8">&nbsp;</div>
+            
+            <div class="seat seat-occupied" id="9">&nbsp;</div>
+            <div class="seat seat-empty" id="10">&nbsp;</div>
+            <div class="seat seat-empty" id="11">&nbsp;</div>
+            <div class="seat seat-empty" id="12">&nbsp;</div>
+          </div>
+          <div class="middle-row">
+            <div class="seat seat-empty" id="13">&nbsp;</div>
+            <div class="seat seat-occupied" id="14">&nbsp;</div>
+            <div class="seat seat-empty" id="15">&nbsp;</div>
+            <div class="seat seat-empty" id="16">&nbsp;</div>
+            <div class="seat seat-empty" id="17">&nbsp;</div>
+            <div class="seat seat-empty" id="18">&nbsp;</div>
+            <div class="seat seat-empty" id="19">&nbsp;</div>
+            <div class="seat seat-empty" id="20">&nbsp;</div>
+            <div class="seat seat-occupied" id="21">&nbsp;</div>
+            <div class="seat seat-empty" id="22">&nbsp;</div>
+            <div class="seat seat-empty" id="23">&nbsp;</div>
+            <div class="seat seat-empty" id="24">&nbsp;</div>
+            <div class="seat seat-empty" id="25">&nbsp;</div>
+            <div class="seat seat-empty" id="26">&nbsp;</div>
+            <div class="seat seat-empty" id="27">&nbsp;</div>
+            <div class="seat seat-empty" id="28">&nbsp;</div>
+            <div class="seat seat-empty" id="29">&nbsp;</div>
+            <div class="seat seat-empty" id="30">&nbsp;</div>
+          </div>
+          <div class="right-row">
+            <div class="seat seat-empty" id="31">&nbsp;</div>
+            <div class="seat seat-occupied" id="32">&nbsp;</div>
+            <div class="seat seat-empty" id="33">&nbsp;</div>
+            <div class="seat seat-empty" id="34">&nbsp;</div>
+            
+            <div class="seat seat-empty" id="35">&nbsp;</div>
+            <div class="seat seat-empty" id="36">&nbsp;</div>
+            <div class="seat seat-empty" id="37">&nbsp;</div>
+            <div class="seat seat-empty" id="38">&nbsp;</div>
+            
+            <div class="seat seat-occupied" id="39">&nbsp;</div>
+            <div class="seat seat-empty" id="40">&nbsp;</div>
+            <div class="seat seat-empty" id="41">&nbsp;</div>
+            <div class="seat seat-empty" id="42">&nbsp;</div>
+          </div>
+          <!-- <div class="seat-occupied">&nbsp;</div> -->
+        </div>
+        <p class="booking-information">You have booked <span id="totalSeats">45</span> seats for <span id="price">12$</span></p>
+      </div>
+    </div>
+    <script src="app.js" type="module"></script>
+  </body>
+</html>
